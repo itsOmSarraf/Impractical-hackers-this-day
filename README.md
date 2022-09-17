@@ -1,9 +1,11 @@
 
 # About the project :
-The wesite will provide the details about important Events , Birth and Death of influencial persons which happened on that day back in history.
-## Check it [live](https://this-day-in-history.vercel.app/)
 
-If you Like the project, give us a ⭐
+The website will provide details about important Events, Birth and Death of influencial people which happened on that day back in history.
+
+#### Check it [live](https://this-day-in-history.vercel.app/)
+
+If you like the project, give us a ⭐
 
 ### Team-mates :
 
