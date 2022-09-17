@@ -5,6 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Today In History</title>
+    <link rel="stylesheet" href="/dist/output.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="bg-blue-300 w-full p-8">
+      <h1 class="text-5xl font-bold heading text-white text-center">
+        TODAY IN HISTORY
+      </h1>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="flex flex-wrap justify-between py-5 w-11/12 m-auto">
+      <!-- Left Side -->
+      <div class="flex">
+        <!-- Date Container -->
+        <div
+          class="border rounded-md border-slate-400 p-5 flex justify-center items-center date-container"
+        >
+          <!--! Fetch JS Object (date) -->
+          <p class="text-3xl font-semibold">17 September</p>
+        </div>
+        <!-- Title -->
+        <div class="mx-5">
+          <p class="text-2xl">What happened today in</p>
+          <p class="text-5xl font-semibold">HISTORY</p>
+        </div>
+      </div>
+      <!-- Right Side -->
+      <div class="">
+        <!-- Custom Date Picker -->
+        <h5 class="text-center">Custom Date</h5>
+        <!-- Input -->
+        <div>
+          <form action="">
+            <input
+              type="number"
+              name=""
+              id=""
+              max="31"
+              placeholder="DD"
+              class="date-picker"
+              min="1"
+            />
+            <input
+              type="number"
+              name=""
+              id=""
+              max="12"
+              min="1"
+              placeholder="MM"
+              class="date-picker"
+            />
+            <input
+              type="submit"
+              value="View"
+              class="bg-blue-400 p-3 text-white rounded-md"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>
