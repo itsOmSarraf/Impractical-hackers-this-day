@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Today In History</title>
     <link rel="stylesheet" href="../dist/output.css" />
-    
+
     <script src="main.js" defer></script>
   </head>
   <body>
@@ -20,18 +20,18 @@
     <nav class="flex flex-wrap justify-between py-5 w-11/12 m-auto">
       <!-- Left Side -->
 
-        <!-- Date Container -->
-        <div
-          class="border rounded-md border-slate-400 p-5 flex justify-center items-center date-container"
-        >
-          <!--! Fetch JS Object (date) -->
-          <p id="currentDate" class="text-3xl font-semibold"></p>
-        </div>
-        <!-- Title -->
-        <div class="mx-5">
-          <p class="text-2xl">What happpened today in</p>
-          <p class="text-5xl font-semibold text-center">HISTORY</p>
-        </div>
+      <!-- Date Container -->
+      <div
+        class="border rounded-md border-slate-400 p-5 flex justify-center items-center date-container"
+      >
+        <!--! Fetch JS Object (date) -->
+        <p id="currentDate" class="text-3xl font-semibold"></p>
+      </div>
+      <!-- Title -->
+      <div class="mx-5">
+        <p class="text-2xl">What happpened today in</p>
+        <p class="text-5xl font-semibold text-center">HISTORY</p>
+      </div>
 
       <!-- Right Side -->
       <div class="">
@@ -69,31 +69,44 @@
     </nav>
 
     <!-- Events -->
-    <div class="mb-8">
-      <div class="bg-blue-300 py-3  pl-16 flex align-middle">
-        <span><img src="/assets/hourglass.svg" alt=""></span>
-        <span class="font-semibold  text-3xl">Events</span>
-      </div>
-      <div class="flex pt-8 pl-16 gap-x-4">
-        <span class="text-blue-600 year font-semibold  text-2xl">
-          1972
-        </span>
-        <div >
-          <h3 class="font-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis accusamus quas quibusdam. Quos consectetur a</h3>
-          <div class="w-3/5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio aut necessitatibus, quam cumque dolorum veniam consectetur at itaque culpa aliquam? Ut explicabo, quo fuga est dolor eligendi earum placeat nemo?</div>
+    <div class="my-20">
+      <div class="bg-blue-300 py-3 flex align-middle">
+        <!-- To Give Spaceing from left and right (Don't use padding to align items)-->
+        <div class="w-11/12 m-auto flex flex-wrap">
+          <img src="/assets/hourglass.svg" alt="" />
+          <p class="font-semibold ml-1 text-3xl text-[#222222]">Events</p>
         </div>
       </div>
       <div class="flex pt-8 pl-16 gap-x-4">
-        <span class="text-blue-600 year font-semibold  text-2xl">
-          2014
-        </span>
-        <div >
-          <h3 class="font-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis accusamus quas quibusdam. Quos consectetur a</h3>
-          <div class="w-3/5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio aut necessitatibus, quam cumque dolorum veniam consectetur at itaque culpa aliquam? Ut explicabo, quo fuga est dolor eligendi earum placeat nemo?</div>
+        <span class="text-blue-600 year font-semibold text-2xl"> 1972 </span>
+        <div>
+          <h3 class="font-semibold">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+            accusamus quas quibusdam. Quos consectetur a
+          </h3>
+          <div class="w-3/5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio aut
+            necessitatibus, quam cumque dolorum veniam consectetur at itaque
+            culpa aliquam? Ut explicabo, quo fuga est dolor eligendi earum
+            placeat nemo?
+          </div>
         </div>
       </div>
-    </div>
-
+      <div class="flex pt-8 pl-16 gap-x-4">
+        <span class="text-blue-600 year font-semibold text-2xl"> 2014 </span>
+        <div>
+          <h3 class="font-semibold">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+            accusamus quas quibusdam. Quos consectetur a
+          </h3>
+          <div class="w-3/5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio aut
+            necessitatibus, quam cumque dolorum veniam consectetur at itaque
+            culpa aliquam? Ut explicabo, quo fuga est dolor eligendi earum
+            placeat nemo?
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
