@@ -1,3 +1,6 @@
+const currentDate = document.getElementById('currentDate');
+
+
 const getData = async () => {
   var url = "https://history.muffinlabs.com/date";
 
@@ -14,6 +17,8 @@ const getData = async () => {
   var randomIndex = Math.floor(Math.random() * length);
 
   console.log(allData.date);
+  currentDate.textContent = allData.date
+
   console.log(allData["data"]["Events"][10]);
 };
 getData();

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Today In History</title>
     <link rel="stylesheet" href="../dist/output.css" />
+
+    <script src="main.js" defer></script>
   </head>
   <body>
     <header class="bg-blue-300 w-full p-8">
@@ -17,20 +19,20 @@
     <!-- Navbar -->
     <nav class="flex flex-wrap justify-between py-5 w-11/12 m-auto">
       <!-- Left Side -->
-      
+
         <!-- Date Container -->
         <div
           class="border rounded-md border-slate-400 p-5 flex justify-center items-center date-container"
         >
           <!--! Fetch JS Object (date) -->
-          <p class="text-3xl font-semibold">17 September</p>
+          <p id="currentDate" class="text-3xl font-semibold"></p>
         </div>
         <!-- Title -->
         <div class="mx-5">
           <p class="text-2xl">What happpened today in</p>
           <p class="text-5xl font-semibold text-center">HISTORY</p>
         </div>
-      
+
       <!-- Right Side -->
       <div class="">
         <!-- Custom Date Picker -->
@@ -100,7 +102,7 @@
         </div>
       </div>
     </div>
-    
+
     </div>
   </body>
 </html>
