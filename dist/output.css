@@ -566,10 +566,6 @@ video {
   margin-bottom: 2rem;
 }
 
-.mt-9{
-  margin-top: 2.25rem;
-}
-
 .flex{
   display: flex;
 }
@@ -586,6 +582,10 @@ video {
   width: 60%;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .flex-wrap{
   flex-wrap: wrap;
 }
@@ -600,11 +600,6 @@ video {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.gap-x-3{
-  -moz-column-gap: 0.75rem;
-       column-gap: 0.75rem;
 }
 
 .gap-x-4{
@@ -654,23 +649,9 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.pl-24{
-  padding-left: 6rem;
 }
 
 .pl-16{
