@@ -16,7 +16,9 @@ body {
 .date-picker {
   @apply w-24 p-5 rounded-lg border border-slate-500;
 }
-
-#event-container > * {
-  margin: 6px 0px;
+.data-container {
+  @apply flex flex-wrap justify-between my-10 w-11/12 m-auto;
+}
+.data-container > * {
+  @apply m-3;
 }
