@@ -3,13 +3,13 @@ const eventDateContainer = document.getElementById("event-container"); // Event 
 const birthDateContainer = document.getElementById("birth-container"); // Birth container
 const deathDateContainer = document.getElementById("death-container"); // Death container
 
-fetch("https://history.muffinlabs.com/date")
-  .then((res) => {
-    return res.json();
-  })
-  .then((data) => {
-    console.log(data);
-  });
+// fetch("https://history.muffinlabs.com/date")
+//   .then((res) => {
+//     return res.json();
+//   })
+//   .then((data) => {
+//     console.log(data);
+//   });
 
 const getData = async () => {
   var url = "https://history.muffinlabs.com/date";
@@ -37,15 +37,6 @@ const getData = async () => {
 
       let event_container = document.createElement("div");
 
-      //     event_container.innerHTML = `<div class="flex pt-8 pl-16 gap-x-4">
-      //   <span class="text-blue-600 year font-semibold  text-2xl" id="event-date">
-      //     ${allData["data"]["Events"][randomeventIndex]["year"]}
-      //   </span>
-      //   <div >
-      //     <h3 class="font-semibold">${allData["data"]["Events"][randomeventIndex]["text"]}</h3>
-      //     <div class="w-3/5">${allData["data"]["Events"][randomeventIndex]["html"]}</div>
-      //   </div>
-      // </div>`;
       event_container.innerHTML = `
   <div class="flex flex-wrap w-[400px] p-5 border border-[#93C5FD] rounded-lg data-card">
   <!-- date -->
