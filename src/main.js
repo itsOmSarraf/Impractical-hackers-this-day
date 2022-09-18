@@ -34,7 +34,7 @@ const getData = async () => {
               </div>
               <!-- title -->
               <div class="card-title">
-                <p>${allData["data"][dataType][randomIndex]["text"]}</p>
+                <p>${allData["data"][dataType][randomIndex]["no_year_html"]}</p>
               </div>
               <!-- desc -->
               

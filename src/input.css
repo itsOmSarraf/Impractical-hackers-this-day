@@ -34,7 +34,7 @@ body {
 .card-desc {
   @apply text-xs sm:text-lg my-2 inline-block;
 }
-.card-desc a {
+.card-title a {
   @apply text-blue-400;
 }
 .learn-more-btn {
