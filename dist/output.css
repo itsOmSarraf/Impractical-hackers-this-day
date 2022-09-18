@@ -809,6 +809,7 @@ body {
   margin-bottom: 2.5rem;
   display: flex;
   width: 91.666667%;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
 }
