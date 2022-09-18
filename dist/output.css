@@ -760,6 +760,9 @@ video {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
 }
+a{
+  color: #e46b6b;
+}
 
 .text-\[\#2222\]{
   color: #2222;
