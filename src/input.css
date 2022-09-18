@@ -16,3 +16,7 @@ body {
 .date-picker {
   @apply w-24 p-5 rounded-lg border border-slate-500;
 }
+
+#event-container > * {
+  margin: 6px 0px;
+}
