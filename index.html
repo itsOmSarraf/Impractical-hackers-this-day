@@ -22,13 +22,13 @@
 
     <!-- Navbar -->
     <nav
-      class="flex flex-col sm:flex-row flex-wrap justify-between py-5 w-11/12 m-auto"
+      class="flex flex-col sm:flex-row flex-wrap justify-evenly py-5 w-11/12 m-auto"
     >
       <!-- Left Side -->
 
       <!-- Date Container -->
       <div
-        class="border rounded-md border-slate-400 p-2 sm:p-5 flex justify-center items-center date-container"
+        class="border rounded-md border-slate-400 p-2 sm:p-5 flex justify-between items-center date-container"
       >
         <!--! Fetch JS Object (date) -->
         <p id="currentDate" class="sm:text-3xl font-semibold"></p>
@@ -40,38 +40,6 @@
       </div>
 
       <!-- Right Side -->
-      <div class="text-center sm:text-right my-5 lg:my-0">
-        <!-- Custom Date Picker -->
-        <h5 class="text-center">Custom Date</h5>
-        <!-- Input -->
-        <div class="">
-          <form action="">
-            <input
-              type="number"
-              name=""
-              id=""
-              max="31"
-              placeholder="DD"
-              class="date-picker"
-              min="1"
-            />
-            <input
-              type="number"
-              name=""
-              id=""
-              max="12"
-              min="1"
-              placeholder="MM"
-              class="date-picker"
-            />
-            <input
-              type="submit"
-              value="View"
-              class="bg-blue-400 p-2 sm:p-3 text-white rounded-md"
-            />
-          </form>
-        </div>
-      </div>
     </nav>
 
     <!-- Events Section Heading -->
@@ -114,6 +82,14 @@
     <!-- Death Data Container -->
 
     <section id="death-container" class="data-container"></section>
+
+    <!-- Refresh Button -->
+    <button
+      onclick="window.location.reload();"
+      class="fixed bottom-4 right-10 bg-[#e46b6b] p-3 rounded-lg text-white shadow-lg"
+    >
+      Update Info
+    </button>
 
     <script src="src/main.js" defer></script>
   </body>
