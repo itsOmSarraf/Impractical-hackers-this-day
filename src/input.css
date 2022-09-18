@@ -14,11 +14,31 @@ body {
   box-shadow: 5px 6px 0px #e46b6b;
 }
 .date-picker {
-  @apply w-24 p-5 rounded-lg border border-slate-500;
+  @apply sm:w-24 p-1 sm:p-5 rounded-lg border border-slate-500;
 }
 .data-container {
-  @apply flex flex-wrap flex-col justify-between my-10 w-11/12 m-auto;
+  @apply flex flex-wrap justify-between my-10 w-11/12 m-auto;
 }
 .data-container > * {
   @apply m-3;
+}
+.card {
+  @apply flex flex-wrap w-full sm:w-[400px] p-5 border border-[#93C5FD] rounded-lg;
+}
+.card-date {
+  @apply p-2 mb-2 font-semibold text-lg sm:text-xl rounded-md bg-[#e46b6b] text-white;
+}
+.card-title {
+  @apply text-base sm:text-lg font-medium;
+}
+.card-desc {
+  @apply text-xs sm:text-lg my-2 inline-block;
+}
+.card-desc a {
+  @apply text-blue-400;
+}
+.learn-more-btn {
+  @apply text-base sm:text-lg p-2 sm:p-3 bg-blue-400 rounded-md text-white;
+}
+.learn-more-btn a {
 }

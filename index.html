@@ -9,30 +9,32 @@
   </head>
   <body class="">
     <header class="bg-blue-300 w-full p-8">
-      <h1 class="text-5xl font-bold heading text-white text-center">
+      <h1 class="text-2xl sm:text-5xl font-bold heading text-white text-center">
         TODAY IN HISTORY
       </h1>
     </header>
 
     <!-- Navbar -->
-    <nav class="flex flex-wrap justify-between py-5 w-11/12 m-auto">
+    <nav
+      class="flex flex-col sm:flex-row flex-wrap justify-between py-5 w-11/12 m-auto"
+    >
       <!-- Left Side -->
 
       <!-- Date Container -->
       <div
-        class="border rounded-md border-slate-400 p-5 flex justify-center items-center date-container"
+        class="border rounded-md border-slate-400 p-2 sm:p-5 flex justify-center items-center date-container"
       >
         <!--! Fetch JS Object (date) -->
-        <p id="currentDate" class="text-3xl font-semibold"></p>
+        <p id="currentDate" class="sm:text-3xl font-semibold"></p>
       </div>
       <!-- Title -->
-      <div class="mx-5">
-        <p class="text-2xl">What happpened today in</p>
-        <p class="text-5xl font-semibold text-center">HISTORY</p>
+      <div class="sm:mx-5 my-5 sm:my-0">
+        <p class="text-xl sm:text-2xl text-center">What happpened today in</p>
+        <p class="text-2xl sm:text-5xl font-semibold text-center">HISTORY</p>
       </div>
 
       <!-- Right Side -->
-      <div class="">
+      <div class="text-center sm:text-right">
         <!-- Custom Date Picker -->
         <h5 class="text-center">Custom Date</h5>
         <!-- Input -->
@@ -59,7 +61,7 @@
             <input
               type="submit"
               value="View"
-              class="bg-blue-400 p-3 text-white rounded-md"
+              class="bg-blue-400 p-2 sm:p-3 text-white rounded-md"
             />
           </form>
         </div>
