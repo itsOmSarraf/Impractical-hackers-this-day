@@ -37,9 +37,7 @@ const getData = async () => {
                 <p>${allData["data"][dataType][randomIndex]["text"]}</p>
               </div>
               <!-- desc -->
-              <div class="card-desc">
-              ${allData["data"][dataType][randomIndex]["no_year_html"]}
-              </div>
+              
               <!-- learn more btn -->
               <a href="https://wikipedia.org/wiki/${allData.date}" class="learn-more-btn">Learn More</a>
               </div>`;

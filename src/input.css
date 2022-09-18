@@ -23,10 +23,10 @@ body {
   @apply m-3;
 }
 .card {
-  @apply flex flex-wrap w-full sm:w-[400px] p-5 border border-[#93C5FD] rounded-lg;
+  @apply flex flex-wrap flex-col w-full sm:w-[400px] p-5 border border-[#93C5FD] rounded-lg shadow-md;
 }
 .card-date {
-  @apply p-2 mb-2 font-semibold text-lg sm:text-xl rounded-md bg-[#e46b6b] text-white;
+  @apply p-2 mb-2 font-semibold text-lg sm:text-xl rounded-md bg-[#e46b6b] text-white w-fit;
 }
 .card-title {
   @apply text-base sm:text-lg font-medium;
@@ -38,7 +38,7 @@ body {
   @apply text-blue-400;
 }
 .learn-more-btn {
-  @apply text-base sm:text-lg p-2 sm:p-3 bg-blue-400 rounded-md text-white;
+  @apply text-base sm:text-lg p-2 sm:p-3 bg-blue-400 rounded-md text-white my-4 w-fit;
 }
 .learn-more-btn a {
 }
